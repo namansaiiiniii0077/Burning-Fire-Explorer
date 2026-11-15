@@ -1,0 +1,30 @@
+# ---- Operating system / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- Python (companion dashboard) ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+
+# ---- Secrets: never commit these ----
+.env
+.env.*
+*.key
+*.pem
+secrets.toml
+
+# ---- Raw NASA download folders and archives (the CSVs you want to share go in data/) ----
+fire --data/
+DL_FIRE_*/
+*.zip
+
+# ---- Temporary files ----
+*.log
+*.tmp
+node_modules/
